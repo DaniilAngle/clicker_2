@@ -1,4 +1,3 @@
-// Change this to any username you'd like to start a new game
 let username = "bitl-student";
 let gameState = ""
 const socket = io.connect("http://localhost:8080/", {transports: ['websocket']});
